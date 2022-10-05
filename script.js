@@ -3,13 +3,13 @@
 let theme = "light";
 
 let light = {};
-light.background = "#ffffff";
+light.background = "linear-gradient(#ADA996, #F2F2F2, #DBDBDB)";
 light.color = "#1b1b1b";
 light.anylink = "#7b32d9";
 light.themebutton = "Light Mode";	
 
 let dark = {};
-dark.background = "#1b1b1b";
+dark.background =  "linear-gradient(#000000, #000000, #444444)";
 dark.color = "#ffffff";
 dark.anylink = "#7b32d9";
 dark.themebutton = "Dark Mode";

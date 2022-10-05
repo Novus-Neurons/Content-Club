@@ -1,28 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Dancing+Script&family=Great+Vibes&family=Poppins:wght@100&family=Shadows+Into+Light&display=swap');
 body {
-	color: #121212;
+	color: black;
 	text-align: justified;
     font-family: "Inconsolata", monospace;
 	width: 75%;
 	margin: auto;
+	font-size: 17px;
 }
 
 hr {
-	/*background-color: #f54864; */
+	
 	color: #4f568a;
 }
 
 a {
 	color: #7b32d9;
 }
-/* h1{
-	color: #7b32d9; 
-} */
+
 
 a:hover:not(.page-heading):not(#anylink) {
     color: #ffffff;
     background-color: #1b1b1b;
     text-decoration: none;
-    padding: 2px;
+    padding: 1px;
     margin: -2px;
 }
 h6{
@@ -32,14 +32,19 @@ h6{
 .page-heading {
 	text-align: center;
 	text-decoration: none;
-    font-family: 'Roboto Condensed', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-weight: 100;
-	font-size: 20px;
+	font-size: 1.25rem;
 }
 
 .footer {
 	position: relative;
 	width: 100%;
+}
+.footer i{
+
+	padding: 2px;
+	background: none;
 }
 
 .content{
@@ -50,5 +55,13 @@ h6{
 }
 
 .light{
+	font-family: 'Poppins', sans-serif;
     background-color: #A170DB;
+	padding: 3px;
+	font-size: 19px;
+}
+.links{
+	width: 100px;
+	text-align: center;
+	font-size: 20px;
 }
