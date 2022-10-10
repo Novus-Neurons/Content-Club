@@ -1,2 +1,3 @@
-# content-club
- This is the test repo for NN Hacktoberfest.
+# Content Club
+
+Add your favourite content creator and let the world know about your idol.
