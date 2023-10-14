@@ -1,26 +1,36 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Dancing+Script&family=Great+Vibes&family=Poppins:wght@100&family=Shadows+Into+Light&display=swap');
+=======
+
 body {
-	color: #121212;
+	color:#872bc5 ;
 	text-align: justified;
     font-family: "Inconsolata", monospace;
-	width: 75%;
+	width: 80%;
 	margin: auto;
 }
 
 hr {
 	/*background-color: #f54864; */
-	color: #4f568a;
+	color: #0ddef1b8;
 }
 
 a {
-	color: #7b32d9;
+	color: #80c111;
 }
 /* h1{
 	color: #7b32d9; 
 } */
 
 a:hover:not(.page-heading):not(#anylink) {
+
+    color: #b01834;
+    background-color: #cd1b1b;
+=======
     color: #ffffff;
     background-color: #1b1b1b;
+	
+
     text-decoration: none;
     padding: 2px;
     margin: -2px;
@@ -33,13 +43,96 @@ h6{
 	text-align: center;
 	text-decoration: none;
     font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 80;
+	font-size: 25px;
+}
+
+.footer:hover {
+	position: relative;
+	width: 120%;
+	font-size: 120%;
+}
+
+.content{
+    align-content: justified;
+    text-align: centre;
+    position: relative; 
+    width: 80%; 
+}
+
+.light:hover{
+    background-color: #ff96ad;
+	box-shadow:0 0 5px #ff96ad,0 0 25px 
+	#ff96ad,0 0 50px #ff96ad, 0 0 10px #ff96ad;
+
+
+.light{
+    background-color: #6115bf;
+}
+h1{
+	text-align: center;
+	font-family: cursive;
+	font-size: 24px;
+	border: 8px solid rgb(235, 224, 248);
+	padding: 1rem 0.5rem;
+	min-height: 2em;
+	width: 80%;
+	resize: both;
+	background: linear-gradient(to top, rgba(#0dbebb, 0.3), rgba(#baae12, 0.3), rgba(#cb691e, 0.3), rgba(#d715b1, 0.3));
+	border-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='100' height='100' viewBox='0 0 100 100' fill='none' xmlns='http://www.w3.org/2000/svg'%3E %3ClinearGradient id='g' x1='0%25' y1='0%25' x2='0%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%23cffffe' /%3E%3Cstop offset='25%25' stop-color='%23f9f7d9' /%3E%3Cstop offset='50%25' stop-color='%23fce2ce' /%3E%3Cstop offset='100%25' stop-color='%23ffc1f3' /%3E%3C/linearGradient%3E %3Cpath d='M1.5 1.5 l97 0l0 97l-97 0 l0 -97' stroke-linecap='square' stroke='url(%23g)' stroke-width='3'/%3E %3C/svg%3E") 1;
+
+=======
+
+=======
+
+
+
+body {
+	color: black;
+	text-align: justified;
+    font-family: "Inconsolata", monospace;
+	width: 75%;
+	margin: auto;
+	font-size: 17px;
+}
+
+hr {
+	
+	color: #4f568a;
+}
+
+a {
+	color: #7b32d9;
+}
+
+
+a:hover:not(.page-heading):not(#anylink) {
+    color: #ffffff;
+    background-color: #1b1b1b;
+    text-decoration: none;
+    padding: 1px;
+    margin: -2px;
+}
+h6{
+	text-align: center;
+}
+
+.page-heading {
+	text-align: center;
+	text-decoration: none;
+	font-family: 'Poppins', sans-serif;
 	font-weight: 100;
-	font-size: 20px;
+	font-size: 1.25rem;
 }
 
 .footer {
 	position: relative;
 	width: 100%;
+}
+.footer i{
+
+	padding: 2px;
+	background: none;
 }
 
 .content{
@@ -50,5 +143,90 @@ h6{
 }
 
 .light{
+	font-family: 'Poppins', sans-serif;
     background-color: #A170DB;
+
+
+	padding: 3px;
+	font-size: 19px;
+}
+.links{
+	width: 100px;
+	text-align: center;
+	font-size: 20px;
+
+=======
+=======
+
+body {
+	color:#872bc5 ;
+	text-align: justified;
+    font-family: "Inconsolata", monospace;
+	width: 80%;
+	margin: auto;
+}
+
+hr {
+	/*background-color: #f54864; */
+	color: #0ddef1b8;
+}
+
+a {
+	color: #80c111;
+}
+/* h1{
+	color: #7b32d9; 
+} */
+
+a:hover:not(.page-heading):not(#anylink) {
+    color: #b01834;
+    background-color: #cd1b1b;
+    text-decoration: none;
+    padding: 2px;
+    margin: -2px;
+}
+h6{
+	text-align: center;
+}
+
+.page-heading {
+	text-align: center;
+	text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 80;
+	font-size: 25px;
+}
+
+.footer:hover {
+	position: relative;
+	width: 120%;
+	font-size: 120%;
+}
+
+.content{
+    align-content: justified;
+    text-align: centre;
+    position: relative; 
+    width: 80%; 
+}
+
+.light{
+    background-color: #6115bf;
+
+}
+h1{
+	text-align: center;
+	font-family: cursive;
+	font-size: 24px;
+	border: 8px solid rgb(235, 224, 248);
+	padding: 1rem 0.5rem;
+	min-height: 2em;
+	width: 80%;
+	resize: both;
+	background: linear-gradient(to top, rgba(#0dbebb, 0.3), rgba(#baae12, 0.3), rgba(#cb691e, 0.3), rgba(#d715b1, 0.3));
+	border-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='100' height='100' viewBox='0 0 100 100' fill='none' xmlns='http://www.w3.org/2000/svg'%3E %3ClinearGradient id='g' x1='0%25' y1='0%25' x2='0%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%23cffffe' /%3E%3Cstop offset='25%25' stop-color='%23f9f7d9' /%3E%3Cstop offset='50%25' stop-color='%23fce2ce' /%3E%3Cstop offset='100%25' stop-color='%23ffc1f3' /%3E%3C/linearGradient%3E %3Cpath d='M1.5 1.5 l97 0l0 97l-97 0 l0 -97' stroke-linecap='square' stroke='url(%23g)' stroke-width='3'/%3E %3C/svg%3E") 1;
+
+=======
+
+
 }
