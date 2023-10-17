@@ -1,7 +1,7 @@
 
 
 
-let theme = "light";
+let theme = "dark";
 
 let light = {};
 light.background = "linear-gradient(#ADA996, #F2F2F2, #DBDBDB)";
